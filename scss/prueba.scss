@@ -1,0 +1,44 @@
+@import "variables.scss";
+seccion{
+    background-color: limegreen;
+    height: 450px;
+    h1{
+      color: $colorTitulo;
+    }
+    h2{
+        color: $colorTitulo;
+    }
+    p{
+        color: black;
+    }
+}
+.cuidado{
+    color: black;
+    font-size: 30px;
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.error{
+    @extend .cuidado;
+    background-color: cadetblue;
+    color: chartreuse;
+}
+
+@mixin mensaje{
+    color: crimson;
+    background-color: cyan;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 1px solid blue;
+    
+}
+
+#mensajeusuario{
+    @include mensaje;
+}

@@ -1,0 +1,9 @@
+seccion {
+  background-color: limegreen;
+  height: 450px; }
+  seccion h1 {
+    color: red; }
+  seccion h2 {
+    color: red; }
+  seccion p {
+    color: black; }

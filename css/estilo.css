@@ -1,0 +1,287 @@
+h1{
+    color: rgb(2, 11, 90);
+    font-size: 30px;
+    font-weight: 700px;;
+    font-family: 'EB Garamond', serif;;
+    font-style: normal;
+    
+    
+    
+}
+
+
+
+
+
+.medio{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.p_medio{
+    color: black;
+    font-style: normal;
+    font-family:'EB Garamond', serif;;
+    text-align: center;
+}
+
+.principal2{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;;
+    text-align: center;
+    background-image: url("sobre-nuestro-negocio-fondo.jpg");
+}
+.p_medio2{
+    color: black;
+    font-style: normal;
+    font-family:'EB Garamond', serif;;
+    text-align: center;
+    background-image: url("sobre-nuestro-negocio-fondo.jpg");
+}
+.principal3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;;
+    text-align: center;
+}
+
+
+
+p{
+    color: black;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;;
+  
+}
+h2{
+    color:black;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;;
+    left: 50%;
+}
+
+
+h3{
+    color: rgb(2, 90, 2);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(198, 222, 253);
+    
+    height: 130px;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}    
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: 15%;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    color:rgb(0, 0, 2);
+    font-size: 50px;
+}
+.texto-abajo{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: rgb(89, 130, 219);
+    font-size: 70px;
+}
+.texto-abajo2{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: rgb(89, 130, 219);
+    font-size: 50px;
+}
+.texto-abajo3{
+    position: absolute;
+    top: 26%;
+    left: 27%;
+    color: rgb(89, 130, 219);
+    font-size: 50px;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 25px;
+}
+
+.centrado1{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 25px;
+}
+.conteiner{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    text-align: center;
+    
+    
+   
+    
+}
+
+
+
+
+
+legend{
+    color: rgb(6, 6, 68)
+}
+
+
+footer{
+    width: 100%;
+    background: rgb(76, 76, 145) ;
+    color: white;
+    padding: 40px;
+}
+.conteiner-body{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.colum1{
+    
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.row img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+
+.colum3{
+    max-width: 400px;
+
+}
+.colum3 h1{
+    font: size 22px; 
+
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+
+
+fieldset{
+    margin-top: 500px;
+    margin-left: 500px;
+}
+
+
+@media only screen and (max-width: 600px){
+    ul{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:768px){
+    
+}
+@media only screen and (min-width:992px){
+
+}
+@media only screen and (min-width:1200px){
+    
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
